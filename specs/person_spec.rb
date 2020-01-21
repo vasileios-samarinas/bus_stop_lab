@@ -10,7 +10,7 @@ class PersonTest < MiniTest::Test
 
 
   def setup()
-    @person = Person.new("Vasileios", 32)
+    @person = Person.new("Vasileios1", 32)
     @person2 = Person.new("Tamas", 30)
   end
 
