@@ -27,4 +27,11 @@ def empty_bus()
   @passengers.clear()
 end
 
+def pick_up_from_stop(stop)
+  for person in stop.queue()
+    pick_up(person)
+  end
+  stop.clear_queue()
+end
+
 end
